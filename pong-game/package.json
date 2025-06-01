@@ -9,14 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/config-plugins": "~10.0.0",
+    "@expo/metro-runtime": "^5.0.4",
     "expo": "~53.0.9",
+    "expo-ads-admob": "^13.0.0",
     "expo-asset": "~11.1.5",
     "expo-file-system": "~18.1.10",
     "expo-screen-orientation": "~8.1.6",
     "expo-status-bar": "~2.2.3",
-    "react": "^19.0.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-native": "0.79.2",
-    "react-native-webview": "^13.14.0"
+    "react-native-web": "^0.20.0",
+    "react-native-webview": "13.13.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

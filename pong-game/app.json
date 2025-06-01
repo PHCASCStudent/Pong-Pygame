@@ -3,7 +3,7 @@
     "name": "Pong Game",
     "slug": "pong-game",
     "version": "1.0.0",
-    "orientation": "land",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
@@ -21,14 +21,15 @@
         "backgroundColor": "#000000"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.quantumchannel.ponggame"
+      "package": "com.quantumchannel.ponggame",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-5295742012044906~6683712829"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-asset"
-    ],
+    "plugins": ["expo-asset"],
     "extra": {
       "eas": {
         "projectId": "c8cfb3cd-3652-4a91-8c56-7938c5403acf"
